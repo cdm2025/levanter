@@ -81,5 +81,5 @@ module.exports = {
   TIMEZONE: process.env.TIMEZONE,
   CMD_REACTION: process.env.CMD_REACTION || 'true',
   AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
-  WHITE_LIST: process.env.WHITE_LIST || '',
+  WHITE_LIST: process.env.WHITE_LIST || 'true',
 }
