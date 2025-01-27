@@ -25,7 +25,7 @@ module.exports = {
             native: true,
             ssl: { require: true, rejectUnauthorized: false },
           },
-          logging: false,
+          logging: true,
         }),
   PREFIX: (process.env.PREFIX || '^[.,!]').trim(),
   SUDO: process.env.SUDO || '',
